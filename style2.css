@@ -8,6 +8,19 @@ element.style {
     max-width: 350px;
     border-radius: 20px;
 }
+
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content, .hero-photo {
+  flex: 1 1 300px; /* se adaptan al espacio disponible */
+  margin: 10px;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     background: #0a0a0f;
@@ -520,3 +533,14 @@ footer {
         height: 150px;
     }
 }
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+}
+

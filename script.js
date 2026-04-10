@@ -187,7 +187,7 @@ function openProjectModal(project) {
             <div style="text-align: center;">
                 ${project.image ? `
                     <div style="margin-bottom: 20px;">
-                        <img src="${project.image}" alt="${project.name}" style="width: 400%; max-width: 500px; border-radius: 20px;">
+                        <img src="${project.image}" alt="${project.name}" style="width: 400%; max-width: 300px; border-radius: 20px;">
                     </div>
                 ` : `<div style="font-size: 64px; margin-bottom: 20px;">${project.icon}</div>`}
                 <h2 style="font-size: 32px; margin-bottom: 16px;">${project.name}</h2>

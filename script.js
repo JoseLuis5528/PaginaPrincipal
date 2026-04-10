@@ -124,7 +124,7 @@ const experiences = [
 
 const skillsData = [
     { category: "Software", icon: "fa-cloud", items: ["Instalacion de Software", "Windows 11", "Windwos 10", "Ubuntu","App movil Android","Macros Excel"] },
-    { category: "Hardware", icon: "fa-cloud", items: [ "Reparaciones Criticas ", "Respaldo de SDD", "App Escritorio", "Mantenimiento a Programas .NET, WEB, Moviles"] },
+    { category: "Hardware", icon: "fa-cloud", items: [ "Reparaciones Criticas ", "Respaldo de SSD y HDD", "App Escritorio", "Mantenimiento a Programas .NET, WEB, Moviles"] },
     { category: ".Net", icon: "fa-tools", items: ["Git", "GitHub", "VS Code", "Docker","Firebase","C#",":NET","reCAHPTCHA"] },
     { category: "App Movil", icon: "fa-users", items: ["Scrum", "CRUD", "Trabajo en equipo", "Resolución de problemas"] }
 ];
